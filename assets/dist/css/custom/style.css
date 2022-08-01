@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fafafa;
+  overflow-x: hidden;
 }
 h1 {
   font-family: "Nunito";
@@ -39,6 +40,9 @@ h1 {
 }
 .gap-34 {
   gap: 34px;
+}
+.gap-85 {
+  gap: 85px;
 }
 .list-group-item {
   height: 28px;
@@ -96,6 +100,9 @@ h1 {
 }
 .mt-150 {
   margin-top: 150px;
+}
+.mt-118 {
+  margin-top: 118px;
 }
 .swiper {
   /* width: 1380px; */
@@ -172,4 +179,66 @@ h1 {
 
 .active .benefit-button {
   background-color: #fdc886;
+}
+
+.restaurant-feature {
+  width: 367px;
+  height: 300px;
+}
+
+.restaurant-feature-title {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.restaurant-feature-title p {
+  color: #5a4fcf;
+}
+
+.restaurant-feature-title h3 {
+  color: #232631;
+}
+
+.restaurant-feature-desc {
+  margin-top: 20px;
+  color: #656565;
+}
+
+.swiper-features {
+  width: 868px;
+}
+
+.restaurant-feature-slider {
+  position: relative;
+  width: 868px;
+  right: 0;
+  overflow: hidden;
+}
+
+.swiper-features .swiper-slide-duplicate-active {
+  width: 400px !important;
+}
+.swiper-features .swiper-slide-duplicate-active img {
+  width: 400px !important;
+}
+
+.swiper-features .swiper-slide-active {
+  width: 400px !important;
+}
+.swiper-features .swiper-slide-active img {
+  width: 400px !important;
+}
+.swiper-features .swiper-slide {
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+}
+
+.swiper-features .swiper-slide img {
+  width: 214px;
+  height: 475px;
+  border-radius: 24px;
+  object-fit: cover;
+  object-position: center;
 }

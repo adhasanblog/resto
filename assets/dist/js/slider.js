@@ -4,21 +4,18 @@ const swiper = new Swiper(".swiper", {
   width: 1128,
   direction: "horizontal",
   loop: true,
-  loopedSlides: 3,
+  loopedSlides: 5,
+});
 
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
+const swiper2 = new Swiper(".swiper-features", {
+  // Optional parameters
+  slidesPerView: 1,
+  spaceBetween: 20,
+  width: 214,
+  height: 475,
+  direction: "horizontal",
+  loop: true,
+  loopAdditionalSlides: 0,
+  slideToClickedSlide: true,
+  centeredSlides: true,
 });
