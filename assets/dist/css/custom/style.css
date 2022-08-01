@@ -53,9 +53,8 @@ h1 {
   height: 2px;
   background-color: #5a4fcf;
 }
-
-.search-container {
-  box-sizing: content-box;
+.rounded-12 {
+  border-radius: 12px;
 }
 .search {
   padding: 16px 56px 16px 28px;
