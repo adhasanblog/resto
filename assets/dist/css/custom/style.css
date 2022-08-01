@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Poppins:ital,wght@0,300;0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+}
+h1 {
+    font-family: "Nunito";
+    line-height: 38.19px;
+}
+.container {
+    padding: 0 !important;
+}
+.mt-60 {
+    margin-top: 3.75rem;
+}
+
+.px-28 {
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-30 {
+    gap: 30px;
+}
+.list-group-item {
+    height: 28px;
+}
+.list-group-item:hover::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom:0;
+    left: 0;    
+    margin-top: 20px;
+    height: 2px;
+    background-color: #5A4FCF;
+}
+
+.search-container {
+    box-sizing: content-box;
+}
+.search {
+    padding: 16px 56px 16px 28px;
+}
+
+.search-input-text {
+    width: 204px;
+    outline: none;
+}
+.button-search {
+    box-sizing: content-box;
+    border-radius: 12px;
+    background-color: hsla(245,57%, 56%, 10%);
+}
+.text-28 {
+    font-size: 1.75rem;
+}
+.text-medium {
+    font-weight: 500;
+}
+
+.text-extra-bold {
+    font-weight: 800;
+}
+
+.text-semi-bold {
+    font-weight: 600;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.swiper {
+    width: 1380px;
+    height: 564px;
+    position: absolute;
+    right: 0;
+    
+  }
+.restaurant-info {
+    position: absolute;
+    margin-top: 133px ;
+    width: 390px;
+    height: 297px;
+    z-index: 10;
+    background-color: white;
+    border-radius: 24px;
+   
+}

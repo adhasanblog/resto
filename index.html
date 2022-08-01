@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto - Restaurant Landing Page Design</title>
+    <link
+      rel="stylesheet"
+      href="./assets/dist/css/bootstrap/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/dist/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/dist/css/custom/style.css" />
+  </head>
+  <body>
+    <nav
+      class="container d-flex flex-fill flex-row justify-content-between mt-60 align-items-center"
+    >
+      <ul class="d-flex flex-row gap-30 m-0 p-0 align-items-center">
+        <li class="list-group-item text-medium">Home</li>
+        <li class="list-group-item text-medium">Category</li>
+        <li class="list-group-item text-medium">Service</li>
+        <li class="list-group-item text-medium">About Us</li>
+      </ul>
+      <header class="d-flex flex-row align-items-center gap-2">
+        <svg
+          width="34"
+          height="34"
+          viewBox="0 0 34 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.2326 29.4289V25.0972C12.2326 23.9914 13.1356 23.095 14.2494 23.095H18.3212C18.8561 23.095 19.3691 23.3059 19.7473 23.6814C20.1256 24.0569 20.338 24.5662 20.338 25.0972V29.4289C20.3347 29.8887 20.5163 30.3307 20.8425 30.657C21.1688 30.9832 21.6127 31.1667 22.0758 31.1667H24.8538C26.1511 31.17 27.3966 30.6607 28.3152 29.7512C29.2337 28.8416 29.75 27.6066 29.75 26.3186V13.9781C29.75 12.9377 29.2854 11.9508 28.4815 11.2833L19.0315 3.79086C17.3877 2.47717 15.0324 2.51959 13.4376 3.89159L4.20327 11.2833C3.36138 11.9311 2.8582 12.9209 2.83333 13.9781V26.306C2.83333 28.9905 5.02546 31.1667 7.72958 31.1667H10.4441C11.4059 31.1667 12.1876 30.3963 12.1945 29.4415L12.2326 29.4289Z"
+            fill="#5A4FCF"
+          />
+        </svg>
+        <h1 class="text-28 text-extra-bold m-0">Resto</h1>
+      </header>
+      <div class="d-flex flex-row gap-20 search-container">
+        <div class="d-flex search align-items-center gap-10 search-container">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask0_3_316"
+              style="mask-type: alpha"
+              maskUnits="userSpaceOnUse"
+              x="2"
+              y="2"
+              width="20"
+              height="20"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M2 2H21.4768V21.477H2V2Z"
+                fill="white"
+              />
+            </mask>
+            <g mask="url(#mask0_3_316)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.7388 3.5C7.1958 3.5 3.4998 7.195 3.4998 11.738C3.4998 16.281 7.1958 19.977 11.7388 19.977C16.2808 19.977 19.9768 16.281 19.9768 11.738C19.9768 7.195 16.2808 3.5 11.7388 3.5ZM11.7388 21.477C6.3688 21.477 1.9998 17.108 1.9998 11.738C1.9998 6.368 6.3688 2 11.7388 2C17.1088 2 21.4768 6.368 21.4768 11.738C21.4768 17.108 17.1088 21.477 11.7388 21.477Z"
+                fill="#858585"
+              />
+            </g>
+            <mask
+              id="mask1_3_316"
+              style="mask-type: alpha"
+              maskUnits="userSpaceOnUse"
+              x="17"
+              y="17"
+              width="6"
+              height="6"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M17.24 17.7069H22.264V22.7217H17.24V17.7069Z"
+                fill="white"
+              />
+            </mask>
+            <g mask="url(#mask1_3_316)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M21.5142 22.7217C21.3232 22.7217 21.1312 22.6487 20.9842 22.5027L17.4602 18.9887C17.1672 18.6957 17.1662 18.2207 17.4592 17.9277C17.7512 17.6327 18.2262 17.6347 18.5202 17.9257L22.0442 21.4407C22.3372 21.7337 22.3382 22.2077 22.0452 22.5007C21.8992 22.6487 21.7062 22.7217 21.5142 22.7217Z"
+                fill="#858585"
+              />
+            </g>
+          </svg>
+          <input
+            class="search-input-text border-0"
+            type="text"
+            placeholder="Search your favorite food"
+          />
+        </div>
+        <button
+          class="py-3 px-28 gap-30 border-0 button-search text-semi-bold m-0"
+        >
+          <span>Log In</span>
+        </button>
+      </div>
+    </nav>
+    <main>
+      <!-- Slider main container -->
+      <div class="container mt-60">
+        <!-- Additional required wrapper -->
+        <div class="restaurant-info">Hello</div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/img/slide1.png"></div>
+          <div class="swiper-slide"><img src="./assets/img/slide2.png"></div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <script src="./assets/dist/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/dist/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/slider.js"></script>
+  </body>
+</html>
