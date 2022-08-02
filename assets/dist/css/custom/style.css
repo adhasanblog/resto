@@ -216,18 +216,20 @@ h1 {
   overflow: hidden;
 }
 
-.swiper-features .swiper-slide-duplicate-active {
+/* .swiper-features .swiper-slide-duplicate-active {
   width: 400px !important;
 }
 .swiper-features .swiper-slide-duplicate-active img {
   width: 400px !important;
-}
+} */
 
 .swiper-features .swiper-slide-active {
   width: 400px !important;
 }
 .swiper-features .swiper-slide-active img {
   width: 400px !important;
+  transition: 1s;
+  
 }
 .swiper-features .swiper-slide {
   object-fit: contain;
@@ -241,4 +243,17 @@ h1 {
   border-radius: 24px;
   object-fit: cover;
   object-position: center;
+  transition: 0.5s;
+}
+
+.features-popup {
+    position: absolute;
+    bottom: 24px;
+    display: flex;
+    background-color: white;
+    width: 352px;
+    height: 131px;
+    padding: 24px;
+    border-radius: 24px;
+    opacity: 0;
 }
