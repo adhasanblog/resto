@@ -1,0 +1,107 @@
+/*Start Custom Margin Top */
+.mt-60 {
+  margin-top: 3.75rem;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+.mt-118 {
+  margin-top: 118px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+/* Close Custom Margin Top */
+
+/*Start Custom PaddingX */
+.px-28 {
+  padding-right: 1.75rem;
+  padding-left: 1.75rem;
+}
+/*Close Custom PaddingX */
+
+/*Start Custom Gap */
+.gap-4 {
+  gap: 4px !important;
+}
+.gap-6 {
+  gap: 6px;
+}
+.gap-12 {
+  gap: 12px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-34 {
+  gap: 34px;
+}
+.gap-85 {
+  gap: 85px;
+}
+/*Close Custom Gap */
+
+/*Start Custom Border Radius */
+.rounded-12 {
+  border-radius: 12px;
+}
+/*Close Custom Border Radius */
+
+/*Start Custom Font Size */
+.text-16 {
+  font-size: 1rem;
+}
+.text-18 {
+  font-size: 1.125rem;
+}
+.text-22 {
+  font-size: 1.375rem;
+}
+.text-28 {
+  font-size: 1.75rem;
+}
+
+/*Close Custom Font Size */
+
+/*Start Custom Font Weight */
+.text-medium {
+  font-weight: 500;
+}
+.text-semi-bold {
+  font-weight: 600;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-extra-bold {
+  font-weight: 800;
+}
+/*Close Custom Font Weight */
+
+.primary-black {
+  color: rgb(35, 38, 49);
+}
+
+.p-grey {
+  color: rgb(101, 101, 101);
+}
+
+.s-grey {
+  color: rgb(133, 133, 133);
+}
+
+.light-orange {
+  color: rgb(253, 200, 134);
+}
+
+.purpel {
+  color: rgb(90, 79, 207);
+}

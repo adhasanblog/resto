@@ -11,43 +11,12 @@ h1 {
 .container {
   padding: 0 !important;
 }
-.mt-60 {
-  margin-top: 3.75rem;
-}
 
-.px-28 {
-  padding-right: 1.75rem;
-  padding-left: 1.75rem;
-}
-
-.gap-04 {
-  gap: 4px;
-}
-.gap-6 {
-  gap: 6px;
-}
-.gap-12 {
-  gap: 12px;
-}
-.gap-10 {
-  gap: 10px;
-}
-.gap-20 {
-  gap: 20px;
-}
-.gap-30 {
-  gap: 30px;
-}
-.gap-34 {
-  gap: 34px;
-}
-.gap-85 {
-  gap: 85px;
-}
 .list-group-item {
   height: 28px;
 }
-.list-group-item:hover::after {
+.list-group-item:hover::after,
+.list-group-item:active::after {
   content: "";
   position: absolute;
   right: 0;
@@ -57,8 +26,8 @@ h1 {
   height: 2px;
   background-color: #5a4fcf;
 }
-.rounded-12 {
-  border-radius: 12px;
+.list-group-item:hover a {
+  color: #232631;
 }
 .search {
   padding: 16px 56px 16px 28px;
@@ -73,37 +42,7 @@ h1 {
   border-radius: 12px;
   background-color: hsla(245, 57%, 56%, 10%);
 }
-.text-18 {
-  font-size: 1.125rem;
-}
-.text-22 {
-  font-size: 1.375rem;
-}
-.text-28 {
-  font-size: 1.75rem;
-}
-.text-medium {
-  font-weight: 500;
-}
-.text-semi-bold {
-  font-weight: 600;
-}
-.text-bold {
-  font-weight: 700;
-}
-.text-extra-bold {
-  font-weight: 800;
-}
 
-.mt-60 {
-  margin-top: 60px;
-}
-.mt-150 {
-  margin-top: 150px;
-}
-.mt-118 {
-  margin-top: 118px;
-}
 .swiper {
   /* width: 1380px; */
   position: absolute;
@@ -183,28 +122,35 @@ h1 {
 
 .restaurant-feature {
   width: 367px;
-  height: 300px;
-}
-
-.restaurant-feature-title {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.restaurant-feature-title p {
-  color: #5a4fcf;
+  height: auto;
 }
 
 .restaurant-feature-title h3 {
+  font-size: 16px;
+  color: #5a4fcf;
+  text-transform: uppercase;
+}
+
+.restaurant-feature-title h2 {
   color: #232631;
+  margin-top: 6px;
 }
 
 .restaurant-feature-desc {
   margin-top: 20px;
   color: #656565;
 }
-
+.restaurant-feature-button {
+  display: block;
+  padding: 16px 28px;
+  background-color: #fdc886;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #232631;
+  font-weight: 600;
+  margin-top: 56px;
+  width: fit-content;
+}
 .swiper-features {
   width: 868px;
 }
@@ -229,7 +175,6 @@ h1 {
 .swiper-features .swiper-slide-active img {
   width: 400px !important;
   transition: 1s;
-  
 }
 .swiper-features .swiper-slide {
   object-fit: contain;
@@ -247,13 +192,19 @@ h1 {
 }
 
 .features-popup {
-    position: absolute;
-    bottom: 24px;
-    display: flex;
-    background-color: white;
-    width: 352px;
-    height: 131px;
-    padding: 24px;
-    border-radius: 24px;
-    opacity: 0;
+  position: absolute;
+  bottom: 24px;
+  display: flex;
+  background-color: white;
+  width: 352px;
+  height: 131px;
+  padding: 24px;
+  border-radius: 24px;
+  opacity: 0;
+}
+
+@media only screen and (min-width: 2500px) {
+  .hero-slider {
+    overflow: hidden;
+  }
 }

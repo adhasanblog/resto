@@ -9,15 +9,16 @@
   <link rel="stylesheet" href="./assets/dist/css/bootstrap/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/dist/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/dist/css/custom/style.css" />
+  <link rel="stylesheet" href="./assets/dist/css/custom/property.css" />
 </head>
 
 <body>
   <nav class="container d-flex flex-fill flex-row justify-content-between mt-60 align-items-center">
     <ul class="d-flex flex-row gap-30 m-0 p-0 align-items-center">
-      <li class="list-group-item text-medium">Home</li>
-      <li class="list-group-item text-medium">Category</li>
-      <li class="list-group-item text-medium">Service</li>
-      <li class="list-group-item text-medium">About Us</li>
+      <li class="list-group-item text-medium"><a class="primary-black text-decoration-none" href="#">Home</a></li>
+      <li class="list-group-item text-medium"><a class="primary-black text-decoration-none" href="#">Category</a></li>
+      <li class="list-group-item text-medium"><a class="primary-black text-decoration-none" href="#">Service</a></li>
+      <li class="list-group-item text-medium"><a class="primary-black text-decoration-none" href="#">About Us</a></li>
     </ul>
     <header class="d-flex flex-row align-items-center gap-2">
       <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,11 +57,11 @@
     </div>
   </nav>
   <main>
-    <section class="container mt-60 position-relative h-564px">
+    <section class="container mt-60 position-relative h-564px hero-slider">
       <div class="restaurant-info">
         <div class="d-flex flex-column p-24 gap-34">
-          <div class="d-flex flex-column gap-04">
-            <div class="">
+          <div class="d-flex flex-column gap-4">
+            <div>
               <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M7.57341 1.89058C8.02244 0.508612 9.97756 0.50861 10.4266 1.89058L11.3574 4.75532C11.5582 5.37336 12.1341 5.7918 12.784 5.7918H15.7962C17.2492 5.7918 17.8534 7.65122 16.6778 8.50532L14.2409 10.2758C13.7152 10.6578 13.4952 11.3348 13.696 11.9529L14.6268 14.8176C15.0759 16.1996 13.4941 17.3488 12.3186 16.4947L9.88168 14.7242C9.35595 14.3422 8.64405 14.3422 8.11832 14.7242L5.68143 16.4947C4.50586 17.3488 2.92413 16.1996 3.37316 14.8176L4.30397 11.9529C4.50479 11.3348 4.2848 10.6578 3.75907 10.2758L1.32217 8.50532C0.1466 7.65122 0.750763 5.7918 2.20385 5.7918H5.21602C5.86586 5.7918 6.44179 5.37336 6.6426 4.75532L7.57341 1.89058Z"
@@ -224,16 +225,17 @@
         </div>
       </div>
     </section>
-    <section class="container d-flex gap-85 mt-118">
+    <section class="container d-flex gap-85 mt-118 justify-content-center align-items-center">
       <div class="restaurant-feature">
         <div class="restaurant-feature-title">
-          <p class="text-semi-bold m-0">Top 3 Featured Restaurant</p>
-          <h2 class="text-28 text-semi-bold m-0">Most Popular Restaurants</h2>
+          <h3 class="text-semi-bold m-0">Top 3 Featured Restaurant</h3>
+          <h2 class="text-28 text-semi-bold">Most Popular Restaurants</h2>
+          <p class="restaurant-feature-desc">The best restaurant in our opinion is how much customers like it in terms
+            of
+            place, price, comfort and of
+            course the
+            taste of the food itself.</p>
         </div>
-        <p class="restaurant-feature-desc">The best restaurant in our opinion is how much customers like it in terms of
-          place, price, comfort and of
-          course the
-          taste of the food itself.</p>
         <a class="restaurant-feature-button" href="">View All Restaurant ></a>
       </div>
       <div class="restaurant-feature-slider">
@@ -242,23 +244,47 @@
             <div class="swiper-slide d-flex justify-content-center">
               <img src="./assets/img/features-slide-1.png">
               <div class="features-popup">
-                
+
               </div>
             </div>
             <div class="swiper-slide d-flex justify-content-center">
               <img src="./assets/img/features-slide-2.png">
               <div class="features-popup">
-                
+
               </div>
             </div>
             <div class="swiper-slide d-flex justify-content-center">
               <img src="./assets/img/features-slide-3.png">
               <div class="features-popup">
-                
+
               </div>
             </div>
           </div>
 
+        </div>
+      </div>
+    </section>
+    <section class="container d-flex flex-column mt-120 gap-34">
+      <div class="">
+        <div class="d-flex flex-column gap-6">
+          <h3 class="text-16 purpel text-semi-bold m-0">Restaurant Based By City</h3>
+          <h2 class="text-28 primary-black text-semi-bold m-0">Restaurant Near You</h2>
+        </div>
+        <div>
+          <select name="" id="">
+            <option value="">Test</option>
+          </select>
+        </div>
+      </div>
+      <div class="d-flex gap-20">
+        <div>
+          <img src="./assets/img/resto-1.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/img/resto-2.png" alt="">
+        </div>
+        <div>
+          <img src="./assets/img/resto-3.png" alt="">
         </div>
       </div>
     </section>
